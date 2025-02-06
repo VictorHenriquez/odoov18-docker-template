@@ -44,7 +44,7 @@ Clona este repositorio en tu máquina local e ingresa a la carpeta del proyecto:
 
 ```bash
 git clone https://github.com/VictorHenriquez/odoov18-docker-template.git
-cd odoo-18-docker-template
+cd odoov18-docker-template
 ```
 
 ### 2. Levanta los Contenedores
