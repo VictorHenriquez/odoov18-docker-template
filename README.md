@@ -50,9 +50,22 @@ cd odoov18-docker-template
 ### 2. Levanta los Contenedores
 
 Para iniciar los contenedores de Odoo y PostgreSQL, ejecuta:
+a.- Si usas bash:
 
 ```bash
 ./run.sh
+```
+
+b.- Si usas powershell:
+
+```bash
+./run.ps1
+```
+
+c.- Si usas cmd:
+
+```bash
+./run.bat
 ```
 
 Esto iniciará los contenedores en segundo plano.
