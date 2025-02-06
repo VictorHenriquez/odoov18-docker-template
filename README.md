@@ -43,8 +43,8 @@ Para ejecutar los contenedores, asegúrate de tener instalados los siguientes pr
 Clona este repositorio en tu máquina local e ingresa a la carpeta del proyecto:
 
 ```bash
-git clone https://github.com/vjmoreno/odoo-18-docker
-cd odoo-18-docker
+git clone https://github.com/VictorHenriquez/odoov18-docker-template.git
+cd odoo-18-docker-template
 ```
 
 ### 2. Levanta los Contenedores
@@ -62,7 +62,7 @@ Esto iniciará los contenedores en segundo plano.
 Una vez que los contenedores estén levantados, puedes acceder a Odoo desde tu navegador web en la siguiente dirección:
 
 ```plaintext
-http://localhost:8069
+http://localhost:8080
 ```
 
 ### 4. Dar de baja los contenedores
@@ -83,4 +83,4 @@ Esto eliminará los contenedores de Odoo y PostgreSQL, pero conservará la base 
 
    Luego cierra sesión y vuelve a iniciar sesión para que los cambios surtan efecto.
 
-2. **Problemas con el puerto 8069**: Si el puerto 8069 está en uso, puedes cambiarlo en el archivo `docker-compose.yml`.
+2. **Problemas con el puerto 8080**: Si el puerto 8069 está en uso, puedes cambiarlo en el archivo `docker-compose.yml`.
